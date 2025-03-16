@@ -10,7 +10,7 @@ public class Fifteen {
             if (n % 2 == 0) {
                 System.out.println("that is even number:" + n);
                 evensum=evensum+n;
-                System.out.println("that is even number sum:" +evensum);
+                System.out.println("that is sum:" +evensum);
             } else {
                 System.out.println("that is odd number:" + n);
                 oddsum=oddsum+n;
