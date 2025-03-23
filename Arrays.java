@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 public class Arrays {
     public static void update(int marks[]){
         for(int i=0;i<marks.length;i++){
@@ -11,5 +13,8 @@ public class Arrays {
             System.out.print(marks[i]+" ");
         }
         System.out.println();
+    }
+
+    public static void sort(Integer[] arr, Comparator<Object> objectComparator) {
     }
 }

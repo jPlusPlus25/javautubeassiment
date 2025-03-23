@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//incresing order
 public class Selectionsort1 {
     public static void selectionSort(int arr[]){
         for(int t=0;t<arr.length-1;t++){
