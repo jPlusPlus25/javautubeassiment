@@ -5,5 +5,6 @@ public class Stringbuilder1 {
             sb.append(ch);
             System.out.println(sb);
         }System.out.println(sb);
+        System.out.println(sb.length());
     }
 }
